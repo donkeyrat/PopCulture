@@ -77,7 +77,7 @@ namespace PopCulture
             }
             if (meleeWeapon)
             {
-                ServiceLocator.GetService<SoundPlayer>().PlaySoundEffect(GetComponent<CollisionSound>().soundEffectRef, impact * 0.5f, transform.position, SoundEffectVariations.GetMaterialType(col.gameObject, col.attachedRigidbody), null, 1f);
+                ServiceLocator.GetService<SoundPlayer>().PlaySoundEffect(GetComponent<CollisionSound>().SoundEffectRef, impact * 0.5f, transform.position, SoundEffectVariations.GetMaterialType(col.gameObject, col.attachedRigidbody), null, 1f);
             }
         }
 
