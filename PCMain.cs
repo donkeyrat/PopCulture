@@ -86,7 +86,7 @@ namespace PopCulture {
                 if (mat.shader.name == "Standard") { mat.shader = Shader.Find("Standard"); }
             }
 
-            new GameObject() {
+            new GameObject {
                 name = "Bulldog",
                 hideFlags = HideFlags.HideAndDontSave
             }.AddComponent<PCMapManager>();

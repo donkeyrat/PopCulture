@@ -464,27 +464,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BoneBehavior.cs" />
     <Compile Include="DodgeMoveSans.cs" />
-    <Compile Include="Kill.cs" />
     <Compile Include="PCBinder.cs" />
-    <Compile Include="PCEnableRandomChild.cs" />
     <Compile Include="PCLauncher.cs" />
     <Compile Include="PCMain.cs" />
     <Compile Include="PCMapManager.cs" />
-    <Compile Include="PCMaterialEvent.cs" />
-    <Compile Include="PCSetParentRoot.cs" />
-    <Compile Include="Effect_Snap.cs" />
-    <Compile Include="FreezeSelf.cs" />
-    <Compile Include="GasterLaser.cs" />
     <Compile Include="PCTriggerCollisionWeapon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RealityStoneSpawner.cs" />
-    <Compile Include="RealityStoneTransformation.cs" />
     <Compile Include="SpawnBone.cs" />
-    <Compile Include="ThanosSnap.cs" />
-    <Compile Include="TransferForceRealityStone.cs" />
-    <Compile Include="TransferPossessionRealityStone.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
